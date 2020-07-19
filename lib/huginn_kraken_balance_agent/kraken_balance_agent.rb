@@ -140,7 +140,7 @@ module Agents
           memory['last_status'] = payload['result'].to_s
         end
       else
-        create_event payload: payload
+        create_event payload: payload['result']
         if payload.to_s != memory['last_status']
           memory['last_status'] = payload['result'].to_s
         end
