@@ -19,10 +19,11 @@ module Agents
 
     event_description <<-MD
       Events look like this:
-        {
-          "currency": "XXBT",
-          "balance": "10000000.0000000000"
-        }
+
+          {
+            "currency": "XXBT",
+            "balance": "10000000.0000000000"
+          }
     MD
 
     def default_options
